@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Circle should render default state 1`] = `
+<div
+  className="circle_component"
+  data-automations="circle_component"
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "borderColor": undefined,
+      "height": "14px",
+      "minWidth": "14px",
+    }
+  }
+/>
+`;
+
+exports[`Circle should render state with props 1`] = `
+<div
+  className="circle_component class_name_mock"
+  data-automations="data_automations_mock"
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "color_mock",
+      "borderColor": "border_color_mock",
+      "height": "42px",
+      "minWidth": "42px",
+    }
+  }
+/>
+`;
