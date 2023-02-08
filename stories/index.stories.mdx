@@ -1,0 +1,18 @@
+import {Meta, Story, Preview} from '@storybook/addon-docs';
+import {Circle} from '../Shapes/Circle/index.js';
+
+<Meta title="Shapes/Circle" component={Circle} />
+
+# Credit card
+
+- This component must use `inputmode="numeric"` in order to bring up the correct keyboard on mobile.
+
+export const RenderCircleStory = ({...args}) => <Circle {...args} />;
+
+<Story name="standard" args={{label: "MAII"}}>
+    <Circle label="MAII" />
+</Story>
+
+<Story name="controls-standard" args={{label: "MAII second"}}>
+    {RenderCircleStory.bind({})}
+</Story>
